@@ -5,8 +5,8 @@
 **Overview**: Create your Personal Portfolio Website using React
 
 This site must include the pages from your Personal Portfolio 5 pages
-– your **Home page**, an **About Me** page, a **Projects page**, a
-**Services page**, and a **Contact Me** page.
+– your **Home page**, an **About Me page**, a **Projects page**, a
+**Services page**, and a **Contact Me page**.
 
 1.  Your Site must include the appropriate content for a **Personal
     Portfolio (65 Marks: Content)**
