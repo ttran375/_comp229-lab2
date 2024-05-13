@@ -13,6 +13,7 @@ const Navbar = () => {
         zIndex: 10,
       }}
     >
+      <a href="#home"><></></a>
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
