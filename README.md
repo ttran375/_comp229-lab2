@@ -1,113 +1,108 @@
-# Lab Session 2 Developing Node.js Web Application and Connect Module
+# Portfolio Site
 
-This document provides the necessary instructions for completing the
-Week 2 lab session exercises.
+## Instructions:
 
-## Exercise 1: Develop Node.js Web Application
+> This site must include the pages from your Personal Portfolio 5 pages
+> – your **Home page**, an **About Me** page, a **Projects page**, a
+> **Services page**, and a **Contact Me** page.
 
-Open VS Code. Open a new folder (File/Open folder...). Name the folder
-**lab-session-2**.
+1.  Your Site must include the appropriate content for a **Personal
+    Portfolio (65 Marks: Content)**
 
-Open a new Terminal window (Terminal menu, select new).
+    1.  You must include a **Navigation Bar** or other Navigation scheme
+        that allows the user to view each page of your site.
 
-To create the **package.json** file, type **npm init or yarn init** in
-the terminal window and accept defaults as below:
+    2.  You must include a **Custom Logo** for your site, this should be
+        placed in or around the main Navigation bar. The **Custom Logo**
+        can be as simple or artistic as you desire (e.g. you could use a
+        primitive colour-filled shape like a triangle or hexagon with
+        your initials positioned inside). Please do not use a logo that
+        belongs to another company or person.
 
-``` sh
-yarn init
-```
+    3.  Your **Home Page** should include some sort of welcome message
+        and link or button that allows the user to redirect to your
+        About Me Page and / or other pages. I recommend also including
+        some sort of **Mission Statement.**
 
-In your working folder, create a file named **server.js** that contains
-the following code snippet:
+    4.  Your **About Me Page** should include your legal name, an image
+        of you (I recommend a head and shoulders shot), a short
+        paragraph about who you are. Keep this clean and simple as it
+        may be viewed by perspective employers.
 
-``` js
-const http = require('http');
-http.createServer((req, res) => {
-   res.writeHead(200, {
-   'Content-Type': 'text/plain'
-   });
-   res.end('Hello World');
-}).listen(3000);
-console.log('Server running at http://localhost:3000/');
-```
-run the server.js file as follows:
+    5.  Your **About Me page** should include a link to a PDF version of
+        your Resume.
 
-``` sh
-node server
-```
+    6.  Your **Projects Page** should include images and information for
+        at least 3 Projects you wish to highlight. These could be
+        current projects you are working on or past projects you have
+        completed. Include an image for each Project and a short
+        description of your role and the outcome.
 
-## Exercise 2: Connect Middleware
+    7.  Your **Services Page** should include a short list of services
+        you offer (e.g. general programming, web development, mobile
+        apps, etc.). I recommend including images that make this more
+        appealing to view.
 
-revise the previous example to include your first middleware. Change
-your **server.js** file to look like the following code snippet:
+    8.  Your **Contact Page** should include your contact information in
+        a panel or other construct.
 
-``` js
-const connect = require('connect');
-const app = connect();
-function helloWorld(req, res, next) {
-   res.setHeader('Content-Type', 'text/plain');
-   res.end('Hello World');
-};
-app.use(helloWorld);
-app.listen(3000);
-console.log('Server running at http://localhost:3000/');
+    9.  Your **Contact Page** should include a short interactive form
+        that allows the user send you a message and provide basic
+        contact information (First Name, Last Name, Contact Number,
+        Email Address, Message, etc.). This form does not have to be
+        fully functional initially. However, it should be able to
+        capture the information entered by the user and redirect them
+        back to the Home Page.
 
-```
+    10. Your **JavaScript**, **CSS and Multimedia Asset Files** are
+        functional.
 
-run the server.js file as follows:
+    11. All Your Code (HTML, CSS, JavaScript, jQuery, etc.) is error
+        free.
 
-``` sh
-node server
-```
+2.  Include **Internal Documentation** for your site **(5 Marks:
+    Internal Documentation):**
 
-## Exercise 3: Mounting Connect Middleware
+    1.  Ensure you include a **comment header** for your **CSS and
+        JavaScript files** that indicate: the
 
-Modify your server.js file to look like the following code snippet:
+> **File name**, **Student’s Name**, **StudentID, and Date.**
 
-``` js
-const connect = require('connect');
-const app = connect();
+1.  Ensure you include a **section headers** for all of your **HTML
+    structure, CSS style sections,**
 
-function logger(req, res, next) {
-    console.log(req.method, req.url);
-    next();
-}
+> and any **JavaScript functions.**
 
-function helloWorld(req, res, next) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello World');
-}
+1.  Ensure all your code uses **contextual variable names** that help
+    make the files human- readable.
 
-function goodbyeWorld(req, res, next) {
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Goodbye World');
-}
+<!-- -->
 
-app.use(logger);
-app.use('/hello', helloWorld);
-app.use('/goodbye', goodbyeWorld);
+1.  Share your files on **GitHub** to demonstrate Version Control Best
+    Practices and push your site to a cloud host **(10 Marks: Cloud
+    Hosting).**
 
-app.listen(3000);
-console.log('Server running at http://localhost:3000/');
+    1.  Your repository must include **your code** and be well
+        structured.
 
-```
+    2.  Your repository must include **commits** that demonstrate the
+        project being updated at different stages of development – each
+        time a major change is implemented.
 
-run the server.js file as follows:
+    3.  You must deploy your site to your Cloud Server using **git**
 
-``` sh
-node server
-```
+> **SUBMITTING YOUR WORK**
+>
+> Your submission should include:
 
-Go to the browser and mount the path
+1.  A zip archive of your website’s Project files **– 5 marks**
 
-Ask for assistance if you encounter any issues during the lab session.
+2.  A link to GitHub (preferable). **– 5 marks**
 
-Happy coding!
+3.  A link to your live portfolio site hosted to your Cloud Server using
+    **git**. **– 10 marks**
 
-**References**
+> This assignment is weighted **15%** of your total mark for this
+> course. Late submissions:
 
-Week1 slides
-
-<https://nodejs.org/en/>
-
-<https://code.visualstudio.com/>
+-   20% deducted for each day late.
