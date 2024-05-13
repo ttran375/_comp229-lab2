@@ -4,8 +4,6 @@
  * Space for you to describe more about yourself.
  */
 
-import React from "react";
-
 /**
  * About background image
  *
