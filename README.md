@@ -60,18 +60,15 @@ This site must include the pages from your Personal Portfolio 5 pages
     11. All Your Code (HTML, CSS, JavaScript, jQuery, etc.) is error
         free.
 
-2.  Include **Internal Documentation** for your site **(5 Marks:
+1.  Include **Internal Documentation** for your site **(5 Marks:
     Internal Documentation):**
 
     1.  Ensure you include a **comment header** for your **CSS and
         JavaScript files** that indicate: the **File name**, **Student’s Name**, **StudentID, and Date.**
 
-1.  Ensure you include a **section headers** for all of your **HTML
-    structure, CSS style sections,**
+    1.  Ensure you include a **section headers** for all of your **HTML structure, CSS style sections,**and any **JavaScript functions.**
 
-> and any **JavaScript functions.**
-
-1.  Ensure all your code uses **contextual variable names** that help
+    1.  Ensure all your code uses **contextual variable names** that help
     make the files human- readable.
 
 <!-- -->
@@ -83,9 +80,9 @@ This site must include the pages from your Personal Portfolio 5 pages
     1.  Your repository must include **your code** and be well
         structured.
 
-    2.  Your repository must include **commits** that demonstrate the
+    1.  Your repository must include **commits** that demonstrate the
         project being updated at different stages of development – each
         time a major change is implemented.
 
-    3.  You must deploy your site to your Cloud Server using **git**
+    1.  You must deploy your site to your Cloud Server using **git**
 
