@@ -1,3 +1,6 @@
+import image from "../images/logo.png";
+
+
 const Navbar = () => {
   return (
     <div
@@ -13,7 +16,7 @@ const Navbar = () => {
         zIndex: 10,
       }}
     >
-      <a href="#home"><></></a>
+      <img src={image} alt="" />
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
