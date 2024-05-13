@@ -2,9 +2,9 @@
 
 ## Instructions:
 
-> This site must include the pages from your Personal Portfolio 5 pages
-> – your **Home page**, an **About Me** page, a **Projects page**, a
-> **Services page**, and a **Contact Me** page.
+This site must include the pages from your Personal Portfolio 5 pages
+– your **Home page**, an **About Me** page, a **Projects page**, a
+**Services page**, and a **Contact Me** page.
 
 1.  Your Site must include the appropriate content for a **Personal
     Portfolio (65 Marks: Content)**
@@ -64,9 +64,7 @@
     Internal Documentation):**
 
     1.  Ensure you include a **comment header** for your **CSS and
-        JavaScript files** that indicate: the
-
-> **File name**, **Student’s Name**, **StudentID, and Date.**
+        JavaScript files** that indicate: the **File name**, **Student’s Name**, **StudentID, and Date.**
 
 1.  Ensure you include a **section headers** for all of your **HTML
     structure, CSS style sections,**
@@ -91,18 +89,3 @@
 
     3.  You must deploy your site to your Cloud Server using **git**
 
-> **SUBMITTING YOUR WORK**
->
-> Your submission should include:
-
-1.  A zip archive of your website’s Project files **– 5 marks**
-
-2.  A link to GitHub (preferable). **– 5 marks**
-
-3.  A link to your live portfolio site hosted to your Cloud Server using
-    **git**. **– 10 marks**
-
-> This assignment is weighted **15%** of your total mark for this
-> course. Late submissions:
-
--   20% deducted for each day late.
