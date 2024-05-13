@@ -68,7 +68,7 @@ This site must include the pages from your Personal Portfolio 5 pages
     1.  Ensure you include a **comment header** for your **CSS and
         JavaScript files** that indicate: the **File name**, **Student’s Name**, **StudentID, and Date.**
 
-    1.  Ensure you include a **section headers** for all of your **HTML structure, CSS style sections,**and any **JavaScript functions.**
+    1.  Ensure you include a **section headers** for all of your **HTML structure, CSS style sections,** and any **JavaScript functions.**
 
     1.  Ensure all your code uses **contextual variable names** that help
     make the files human- readable.
@@ -87,4 +87,3 @@ This site must include the pages from your Personal Portfolio 5 pages
         time a major change is implemented.
 
     1.  You must deploy your site to your Cloud Server using **git**
-
