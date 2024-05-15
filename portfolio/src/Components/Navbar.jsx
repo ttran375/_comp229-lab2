@@ -16,7 +16,7 @@ const Navbar = () => {
         zIndex: 10,
       }}
     >
-      <img src={image} alt="Logo" style={{height: "20px"}} />
+      <a href="#home"><img src={image} alt="Logo" style={{height: "20px"}} /></a>
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
